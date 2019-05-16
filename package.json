@@ -21,14 +21,17 @@
   },
   "homepage": "https://gitlab.com/jadrenko/od-recruit#README",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.2.0",
-    "video.js": "^7.1.0"
+    "@fancyapps/fancybox": "^3.5.7",
+    "@fortawesome/fontawesome-free": "^5.8.2",
+    "foundation-sites": "^6.5.3",
+    "jquery": "^3.4.1",
+    "open-sans-fonts": "^1.5.1",
+    "plyr": "^3.5.4",
+    "what-input": "^5.2.1"
   },
   "devDependencies": {
     "cross-env": "^5.2.0",
-    "foundation-sites": "^6.5.0-rc.2",
-    "jquery": "^3.3.1",
-    "laravel-mix": "^2.1.11",
-    "node-sass": "^4.9.2"
+    "gulp": "^4.0.2",
+    "node-sass": "^4.12.0"
   }
 }
