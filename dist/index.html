@@ -2,38 +2,27 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-  <title>Le M Moser</title>
-  <link rel="stylesheet" href="css/app.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/app.css">
 </head>
-<body class="grid-container">
-	<header class="grid-x grid-margin-x grid-margin-y">
-    <div class="cell"><h1>Static HTML boilerplate</h1></div>
-  </header>
-	<main class="grid-x grid-margin-x grid-margin-y">
-    <div class="cell text-center">
-      <video
-        id="my-player"
-        class="video-js"
-        controls
-        preload="auto"
-        poster="//vjs.zencdn.net/v/oceans.png"
-        data-setup='{}'>
-        <source src="//vjs.zencdn.net/v/oceans.mp4" type="video/mp4"></source>
-        <source src="//vjs.zencdn.net/v/oceans.webm" type="video/webm"></source>
-        <source src="//vjs.zencdn.net/v/oceans.ogv" type="video/ogg"></source>
-      </video>
-    </div>
-    <div class="cell">
-      <p><b>The quick brown fox jumps over the lazy dog.</b></p>
-      <p><i>The quick brown fox jumps over the lazy dog.</i></p>
-      <p>The quick brown fox jumps over the lazy dog.</p>
-    </div>
-  </main>
-	<footer class="grid-x grid-margin-x grid-margin-y">
-    <div class="cell">
-      <p class="text-center">Produced by AFV <i class="fas fa-arrow-right"></i></p>
-    </div>
-  </footer>
+<body>
+	<header>
+		<nav></nav>
+	</header>
+	<main class="grid-container">
+		<div class="grid-x">
+			<div class="cell medium-6 medium-offset-3">
+				<video id="my-player" controls playsinline preload="auto" poster="//vjs.zencdn.net/v/oceans.png">
+					<source src="//vjs.zencdn.net/v/oceans.mp4" type="video/mp4"></source>
+					<source src="//vjs.zencdn.net/v/oceans.webm" type="video/webm"></source>
+					<source src="//vjs.zencdn.net/v/oceans.ogv" type="video/ogg"></source>
+				</video>
+			</div>
+		</div>
+	</main>
+	<footer></footer>
 	<script src="js/app.js"></script>
 </body>
 </html>

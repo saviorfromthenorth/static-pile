@@ -1,9 +1,11 @@
 @import "variables";
 
+@import "npm-font-open-sans/open-sans.scss";
 @import "@fortawesome/fontawesome-free/scss/fontawesome";
 @import "@fortawesome/fontawesome-free/scss/brands";
 @import "@fortawesome/fontawesome-free/scss/regular";
 @import "@fortawesome/fontawesome-free/scss/solid";
 @import "foundation-sites/scss/foundation";
+@import "plyr/src/sass/plyr";
 
 @include foundation-everything(true);

@@ -1,5 +1,6 @@
 window.$ = window.jQuery = require('jquery');
-window.videojs = require('video.js');
+window.Plyr = require('plyr');
+require('what-input');
 require('foundation-sites');
 
 $(document).foundation();
