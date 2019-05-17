@@ -9,16 +9,30 @@
 </head>
 <body>
 	<header>
-		<nav></nav>
+		<nav>
+    </nav>
 	</header>
 	<main class="grid-container">
 		<div class="grid-x">
-			<div class="cell medium-6 medium-offset-3">
-				<video id="my-player" controls playsinline preload="auto" poster="//vjs.zencdn.net/v/oceans.png">
-					<source src="//vjs.zencdn.net/v/oceans.mp4" type="video/mp4"></source>
-					<source src="//vjs.zencdn.net/v/oceans.webm" type="video/webm"></source>
-					<source src="//vjs.zencdn.net/v/oceans.ogv" type="video/ogg"></source>
-				</video>
+      <div class="cell">
+        <section class="card">
+          <div class="card-divider">Elasticlunr</div>
+          <div class="card-section">
+            <input type="search" id="search" placeholder="Search" maxlength="191" />
+          </div>
+        </section>
+      </div>
+			<div class="cell">
+        <div class="card">
+          <div class="card-divider">Plyr</div>
+          <div class="card-section">
+            <video id="my-player" controls playsinline preload="auto" poster="//vjs.zencdn.net/v/oceans.png">
+              <source src="//vjs.zencdn.net/v/oceans.mp4" type="video/mp4"></source>
+              <source src="//vjs.zencdn.net/v/oceans.webm" type="video/webm"></source>
+              <source src="//vjs.zencdn.net/v/oceans.ogv" type="video/ogg"></source>
+            </video>
+          </div>
+        </div>
 			</div>
 		</div>
 	</main>
