@@ -1,2 +1,2 @@
 # static-pile
-A laravel mix boilerplate that includes, foundation sites CSS, font awesome, jQuery, video JS and Open Sans font.
+Boilerplate for generating CSS and JavaScript assets through [GulpJS](https://gulpjs.com/).
