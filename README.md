@@ -6,3 +6,4 @@ This boilerplate includes the following libraries:
 * [jQuery](https://jquery.com/)
 * [Font Awesome](https://fontawesome.com/)
 * [Plyr](https://plyr.io/)
+* [Elasticlunr](http://elasticlunr.com/)
