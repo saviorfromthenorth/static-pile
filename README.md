@@ -8,4 +8,4 @@ This boilerplate includes the following libraries:
 * [Plyr](https://plyr.io/)
 * [Elasticlunr](http://elasticlunr.com/)
 
-After installing run `npm start` to invoke `gulp watch`
+After installing run `npm start` to invoke `gulp watch`.
